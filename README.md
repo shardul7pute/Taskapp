@@ -1,5 +1,5 @@
 
-=Web application developed by using html,css,js,bootstap and python,Django framework in the backend this application uses mysql dbms for database operation
+=>Web application developed by using html,css,js,bootstap and python,Django framework in the backend this application uses mysql dbms for database operation
 
 
 =>This application contains authentication functionality which inculdes login,regiester,logout
