@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDO|AddTask</title>
+</head>
+<body>
+    <form method="post" action="">
+        {% csrf_token %}
+        <table align="center">
+            <h1 align="center">Add The Task</h1>
+            <tr>
+                <td><label for="input1">Task:</label></td>
+                <td><input type="text" name="title" id="input1" required></td>
+            </tr>
+            <tr>
+                <td><label for="input2">Enter Task Details:</label></td>
+                <td><textarea name="del" id="input2" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="input3">Due Date:</label></td>
+                <td><input type="date" name="duedt" id="input3"></td>
+            </tr>
+            <tr>
+               <td colspan="2" align="center"> <input type="submit" name="subbtn" value="Add Task"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
